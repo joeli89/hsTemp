@@ -1,0 +1,61 @@
+
+/*TWITTER*/
+
+.twitter {
+	background-color: #4099FF;
+}
+
+.twitter h2{
+	color: white;
+	text-shadow: 0px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.twitter p{
+	color: white;
+}
+
+#twatter {
+	display: none;
+	margin-bottom: 5%;
+}
+
+#twatter_hide {
+	margin-top: 5%;
+}
+
+
+
+
+/*Instagram*/
+
+.instagram {
+	background-color: #517fa4;
+}
+
+.instagram h2 {
+	color: white;
+	text-shadow: 0px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.instagram p{
+	color: white;
+}
+
+#insta {
+	display: none;
+}
+
+#insta_hide {
+	margin-top: 5%;
+}
+
+
+
+@media (max-width: 600px) {
+
+	.instagram {
+		display: none;
+	}
+}
+
+
