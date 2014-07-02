@@ -1,3 +1,37 @@
+/*HOLDING PAGE TEMP*/
+
+.index-inner-bg {
+	padding: 0;
+	background-color: #e96045;
+}
+
+.top-button {
+	padding-bottom: 50px;
+}
+
+/* END HOLDING PAGE TEMP*/
+
+/*alert*/
+
+.alert-warning {
+background-color: #1072f7;
+border-color: #1072f7;
+color: #ffffff;
+
+}
+.alert-warning h3 {
+	font-size: 30px;
+	font-family: 'ThirstyScript', HelveticaNeue-UltraLight,'Open Sans', sans-serif;
+	line-height: 0;
+}
+
+/*SIGN-IN*/
+#password_body {
+	background-color: #e96045;
+}
+
+
+
 .navbar {
 	box-shadow: 0px 5px 0px rgba(0,0,0,0.25);
 }
@@ -146,12 +180,12 @@ background-size: cover;
 
 
 .phone img {
-	max-width: 90%;
+	max-width: 80%;
 	margin-top: 50px;
 }
 
 .phones img {
-	max-width: 80%;
+	max-width: 350px;
 }
 
 /*Our Story*/
@@ -245,6 +279,19 @@ background-size: cover;
 	animation-duration: 1s;
 }
 
+/*PASSWORD*/
+
+.password-body {
+	background-color: #e96045;
+}
+
+
+/*FOOTER*/
+
+.footer {
+	color: #ffffff;
+}
+
 
 
 
@@ -263,6 +310,13 @@ background-size: cover;
     .selfies img, .compare img {
     	width: 25%;
     }
+
+    .alert-warning h3 {
+	line-height: 25px;
+}
+.phones img {
+	max-width: 90%;
+}
 
 
 

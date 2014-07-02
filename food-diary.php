@@ -1,4 +1,4 @@
-<?php 
+<?php include('inc/password_protect.php'); ?><?php 
 $pageTitle = "Fitness Diary App, Healthy Selfie";
 $section = "foodDiary";
 $nav = "no-nav";

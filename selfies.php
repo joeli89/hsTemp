@@ -1,4 +1,4 @@
-<?php 
+<?php include('inc/password_protect.php'); ?><?php 
 $pageTitle = "Selfies, Healthy Selfie";
 $section = "selfies";
 $nav = "no-nav";
@@ -13,7 +13,7 @@ include('inc/header.php'); ?>
                 <div class="row">
                     <div class="col-sm-4">
 
-                        <a href="index.php"><h4 class="back navbar-default-back navbar-fixed-top"><i class="fa fa-chevron-left"></i> BACK</h4></a>
+                        <a href="home.php"><h4 class="back navbar-default-back navbar-fixed-top"><i class="fa fa-chevron-left"></i> BACK</h4></a>
 
                     </div>
                 </div>

@@ -2,9 +2,13 @@
         <footer>
 	        <div class="container">
 	            <div class="row" >
-	                <div class="col-sm-12 footer-copyright">
+	                <div class="col-sm-8 footer">
 	                    <p>&copy; <?php echo date('Y'); ?> Healthy Selfie. All rights reserved.</p>
 	                    <p>Website by <a href="http://www.joelidesign.com/">Joe Li</a></p>
+	                </div>
+	                <div class="col-sm-4 footer-right">
+	                    <a href="private_policy.php">Privacy Policy</a><br>
+	                    <a href="support.php">Support</a>
 	                </div>
 	                <!-- <div class="col-sm-12 footer-social">
 	                    <a class="ultm ultm-facebook ultm-48 ultm-square ultm-gray-to-color" href=""></a>

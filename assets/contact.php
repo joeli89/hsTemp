@@ -27,9 +27,10 @@ if($_POST) {
    }
    if(isEmail($clientEmail) && $subject != '' && $message != '') {
     $message = "From email: " . $clientEmail . "\n\n" . "Message: \n\n" . $message;
-       // Send email
+        // Send email
        //$headers = "From: " . $clientEmail . " <" . $clientEmail . ">" . "\r\n" . "Reply-To: " . $clientEmail;
        mail($emailTo, "HS Contact Form |" . " " . $subject, $message);
+      header("Location: ../index.php?status=thanks");   
    }
 
    echo json_encode($array);

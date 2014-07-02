@@ -67,12 +67,16 @@
             <li class="animated slideInRight delay-1"><a href="#compares">Compares</a></li>
             <li class="animated slideInRight delay-2"><a href="#foodDiary">Food Diary</a></li>
             <li class="animated slideInRight delay-3"><a href="#scrapbooks">ScrapBooks</a></li>
-            <li class="animated slideInRight delay-4"><a href="#explore">Explore</a></li>
+            <li class="animated slideInRight delay-4"><a href="#explore">Discover</a></li>
             <li class="animated slideInRight delay-5"><a href="#fitfeed">Fit Feed</a></li>
             <li class="animated slideInRight delay-6"><a href="#contactUs"><i class="fa fa-envelope-o"></i></a></li>
+            <li class="animated slideInRight delay-6"><a href="home.php?logout=1">Logout</a></li>
+            
           </ul>
         </div>
       </div>
     </nav>
+
+
 
 

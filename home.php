@@ -1,3 +1,5 @@
+<?php include('inc/password_protect.php'); ?>
+<?php include('inc/thanks-message.php'); ?>
 <?php 
 $pageTitle = "Healthy Selfie | Health &amp; Fitness App";
 $section = "index";
@@ -194,10 +196,10 @@ include('inc/header.php'); ?>
 	        <div class="container">
 	            <div class="row">
 	                <div class="col-sm-12 single-feature-text">
-	                	<img src="assets/img/icons/explore.png" alt="Healthy Selfie, explore the fitness industry and get access to a database fo results."/>
-	                    <h3>Explore</h3>
+	                	<img src="assets/img/icons/explore.png" alt="Healthy Selfie, discover the fitness industry and get access to a database fo results."/>
+	                    <h3>Discover</h3>
 	                    <p>
-	                    	The explore function is there to provide you the user with as much information to aid you on your 
+	                    	The discover function is there to provide you the user with as much information to aid you on your 
 	                    	fitness journey. For the first time ever, you get access to a huge <b>database of results</b> from different 
 	                    	diets, training systems and products available on the market in REAL TIME. See first hand what works
 	                    	and what doesn't!
@@ -465,6 +467,7 @@ include('inc/header.php'); ?>
             </div>
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 contact-form">
+                	
                     <h4>Send us a message</h4>
                     <form method="post" action="assets/contact.php">
                         <input type="text" name="email" placeholder="Email..." class="contact-email">
@@ -472,6 +475,7 @@ include('inc/header.php'); ?>
                         <textarea name="message" placeholder="Message..."></textarea>
                         <button type="submit">Send</button>
                     </form>
+                    
                 </div>
                <!--  <div class="col-sm-5 contact-address">
                     <h4>Come visit us</h4>
