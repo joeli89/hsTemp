@@ -117,8 +117,18 @@ function showLoginPasswordProtect($error_msg) {
             margin-bottom: 20px;
             width: 50%;
             height: 5%;
-            font-size: 20px;
+            font-size: 18px;
+            box-shadow: 0 4px rgba(0,0,0,0.05);
+            border-radius: 5px;
           }
+
+    a {
+      color: #BA4D37;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #ffffff;
+    }
 
 
     h3 {color: #ffffff;
@@ -153,6 +163,7 @@ function showLoginPasswordProtect($error_msg) {
   <div style="width:500px; margin-left:auto; margin-right:auto; text-align:center">
   <form method="post">
     <h3><i class="fa fa-life-ring"></i> Admin Login</h3>
+    <p>Want access? Email <a href="mailto:info@healthyselfieapp.com">info@healthyselfieapp.com</a></p>
     <font color="black"><?php echo $error_msg; ?></font><br />
 <?php if (USE_USERNAME) echo '<input type="input" name="access_login" placeholder="Login" />'; ?>
     <input type="password" name="access_password" placeholder="Password" /><p></p><input type="submit" name="Submit" value="Submit" />

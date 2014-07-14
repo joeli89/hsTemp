@@ -17,7 +17,7 @@ include('inc/header.php'); ?>
                         	</div>
                             <h2>Healthy Selfie.<br> <span>Picture a new you.</span></h2>
                             <div class="description">
-                            	<p>Healthy Selfie is a mobile app that allows you to monitor and track your body’s progression whilst gaining inspiration from others. </p>
+                            	<p>Healthy Selfie is a social networking app that allows you to track your body’s physical evolution.</p>
                             </div>
                             
                             <div class="top-button">
@@ -49,7 +49,7 @@ include('inc/header.php'); ?>
 	            <div class="row">
 	                <div class="col-sm-12 features">
 	                    <h3>Main features</h3>
-	                    <p>Healthy Selfie allows you to see your results in real time. Any type of progression <b>BIG</b> or small gives you the motivation you need to continue on your journey.</p>
+	                    
 	                </div>
 	            </div>
 
@@ -62,7 +62,7 @@ include('inc/header.php'); ?>
 	                	</a>
 	                    <h4>Selfies &amp; Stats</h4>
 	                    <p>
-	                    	Use selfies to track your body and reach your ultimate goal.
+	                    	Date stamped photos to track your body's progression.
 	                    </p>
 	                </div>
 
@@ -86,7 +86,7 @@ include('inc/header.php'); ?>
 		                </a>
 	                    <h4>Food Diary</h4>
 	                    <p>
-	                    	Take photos of your food and monitor what you're consuming.
+	                    	Take photos of your food and monitor what you're eating.
 	                    </p>
 	                </div>
 	                <div class="col-sm-3 features-box-1">
@@ -97,7 +97,7 @@ include('inc/header.php'); ?>
 		                </a>
 	                    <h4>Scrapbooks</h4>
 	                    <p>
-	                    	All your healthy inspiration saved in one place.
+	                    	Tack "Fit-spiration" to your own personlised Scrapbooks.
 	                    </p>
 	                </div>
 	            </div>
@@ -112,11 +112,11 @@ include('inc/header.php'); ?>
 	                	<img src="assets/img/icons/selfies.png" alt="Healthy Selfie App, track and monitor your bodys progression trhough taking selfies, with our new iOS mobile application." />
 	                    <h3>Selfies &amp; Stats</h3>
 	                    <p>
-	                    	Time stamped photos to track and monitor your body's progression. Using the App's augmented camera 
-	                    	ensures you're in the right spot for every selfie with the option to blur your face for added privacy.
-	                    	 Input detailed body stats to complete the picture.
+	                    	Photos are the most intuitive way of tracking your body's progression. Looking at your body objectively is the ultimate motivation. 
+	                    	Using the App's augmented camera ensures you're in the right spot for every selfie.
+	                    	Input detailed body stats to complete each picture.
 	                    </p>
-<!-- 	                    <a href="selfies.php"><h3 class="more"><i class="fa fa-plus-circle"></i></h3></a> -->
+
 	                    <a href="selfies.php"><p class="more"><i class="fa fa-plus-circle"></i> See more..</p></a>
 	                </div>
 	            </div>

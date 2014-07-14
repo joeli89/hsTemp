@@ -1,34 +1,9 @@
 <?php include('inc/password_protect.php'); ?><?php 
 $pageTitle = "Gym Motivation all in one place, Healthy Selfie";
 $section = "scrapbooks";
-$nav = "no-nav";
+$background = "background-image: url('assets/img/bgs/scrapbooks.png');";
 include('inc/header.php'); ?> 
 
-
-
-<div class="top-content">
-    <div style="background-image: url('assets/img/bgs/scrapbooks.png');" class="fullscreen-img">
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-sm-4">
-
-                        <a href="home.php"><h4 class="back navbar-default-back navbar-fixed-top"><i class="fa fa-chevron-left"></i> BACK</h4></a>
-
-                    </div>
-                </div>
-
-                    <div class="row">
-                        <div class="col-sm-12 single-feature-text selfies_home">
-
-                            <!-- Padding inserted here to pull out page. -->
-                            
-                        </div>
-
-                    </div>
-            </div>
-    </div>
-</div>
 
             <!-- Single feature -->
         <div class="single-feature-container single-feature-bg">

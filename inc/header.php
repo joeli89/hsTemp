@@ -47,7 +47,8 @@
 
 <body data-spy="scroll" data-target=".navbar">
 
-    <nav class="navbar navbar-default navbar-fixed-top animated slideInDown duration-1 " role="navigation" style="<?php if($nav == "no-nav") {echo "display: none";}; ?>">
+<?php if($section == "index") { ?>
+    <nav class="navbar navbar-default navbar-fixed-top animated slideInDown duration-1 " role="navigation">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -63,19 +64,55 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar-this">
           <ul class="nav navbar-nav navbar-right">
-            <li class="animated slideInRight"><a href="#selfies">Selfies</a></li>
-            <li class="animated slideInRight delay-1"><a href="#compares">Compares</a></li>
-            <li class="animated slideInRight delay-2"><a href="#foodDiary">Food Diary</a></li>
-            <li class="animated slideInRight delay-3"><a href="#scrapbooks">ScrapBooks</a></li>
-            <li class="animated slideInRight delay-4"><a href="#explore">Discover</a></li>
-            <li class="animated slideInRight delay-5"><a href="#fitfeed">Fit Feed</a></li>
-            <li class="animated slideInRight delay-6"><a href="#contactUs"><i class="fa fa-envelope-o"></i></a></li>
-            <li class="animated slideInRight delay-6"><a href="home.php?logout=1">Logout</a></li>
-            
+            <li class="animated slideInRight"><a href="#top-content">Home</a></li>
+            <li class="dropdown animated slideInRight delay-1">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Features <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li class="animated slideInDown"><a href="#selfies">Selfies</a></li>
+                <li class="animated slideInDown delay-1"><a href="#compares">Compares</a></li>
+                <li class="animated slideInDown delay-2"><a href="#foodDiary">Food Diary</a></li>
+                <li class="animated slideInDown delay-3"><a href="#scrapbooks">ScrapBooks</a></li>
+                <li class="animated slideInDown delay-4"><a href="#explore">Discover</a></li>
+                <li class="animated slideInDown delay-5"><a href="#fitfeed">Fit Feed</a></li>
+              </ul>
+            </li>
+            <li class="animated slideInRight delay-2"><a href="prototype.php">Prototype</a></li>
+            <li class="animated slideInRight delay-3"><a href="#contactUs"><i class="fa fa-envelope-o"></i></a></li>
+            <li class="animated slideInRight delay-4 logout"><a href="home.php?logout=1"><i class="fa fa-lock"></i>  Logout</a></li>
           </ul>
         </div>
       </div>
     </nav>
+<?php } else { ?>
+
+
+<div class="top-content"  style="<?php if($nav == "no-nav") {echo "display: none";}; ?>">
+    <div style="<?php echo $background; ?>" class="fullscreen-img">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-sm-4">
+
+                        <a href="home.php"><h4 class="back navbar-default-back navbar-fixed-top"><i class="fa fa-chevron-left"></i> BACK</h4></a>
+
+                    </div>
+                </div>
+
+                    <div class="row">
+                        <div class="col-sm-12 single-feature-text selfies_home">
+
+                            <!-- Padding inserted here to pull out page. -->
+                            
+                        </div>
+
+                    </div>
+            </div>
+    </div>
+</div>
+
+<?php } ?>
+
+
 
 
 

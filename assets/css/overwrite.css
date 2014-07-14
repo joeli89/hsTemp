@@ -5,6 +5,10 @@
 	background-color: #e96045;
 }
 
+.inner-bg2 {
+	background-color: #e96045;
+}
+
 .top-button {
 	padding-bottom: 50px;
 }
@@ -284,6 +288,19 @@ background-size: cover;
 .password-body {
 	background-color: #e96045;
 }
+.navbar-default .navbar-nav>.logout>a {
+	color: #BA4D37;
+}
+.signIn {
+	color: #BA4D37;
+}
+
+/*SUPPORT*/
+
+.thanks-support-form p {
+	text-align: center;
+	font-size: 20px;
+}
 
 
 /*FOOTER*/
@@ -313,10 +330,16 @@ background-size: cover;
 
     .alert-warning h3 {
 	line-height: 25px;
-}
-.phones img {
-	max-width: 90%;
-}
+	}
+	.phones img {
+		max-width: 90%;
+	}
+	.navbar-default .navbar-toggle {
+	border-color: transparent;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+	background-color: #e96045;
+	}
 
 
 

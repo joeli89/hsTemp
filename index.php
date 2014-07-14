@@ -56,7 +56,7 @@ $section = "index";
 
     <div class="container">
         <a href="home.php">
-            <button type="button" class="btn btn-default navbar-btn">Sign in</button>
+            <button type="button" class="btn btn-default navbar-btn signIn"><i class="fa fa-lock"> Sign in</i></button>
         </a>
     </div>
 		

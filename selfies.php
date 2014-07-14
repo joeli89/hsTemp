@@ -1,35 +1,9 @@
 <?php include('inc/password_protect.php'); ?><?php 
 $pageTitle = "Selfies, Healthy Selfie";
 $section = "selfies";
-$nav = "no-nav";
+$background = "background-image: url('assets/img/bgs/selfies.png');";
 include('inc/header.php'); ?> 
 
-
-
-<div class="top-content">
-    <div style="background-image: url('assets/img/bgs/selfies.png');" class="fullscreen-img">
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-sm-4">
-
-                        <a href="home.php"><h4 class="back navbar-default-back navbar-fixed-top"><i class="fa fa-chevron-left"></i> BACK</h4></a>
-
-                    </div>
-                </div>
-
-                    <div class="row">
-                        <div class="col-sm-12 single-feature-text selfies_home">
-
-                            <!-- Padding inserted here to pull out page. -->
-                            
-                        </div>
-
-                    </div>
-            </div>
-        </div>
-
-    </div>
 
         <!-- Single feature -->
         <div class="single-feature-container single-feature-bg">
@@ -67,7 +41,7 @@ include('inc/header.php'); ?>
                 <div class="row">
                     <div class="col-sm-12 single-feature-text selfie-text" >
                         <h3>Selfies</h3>
-                        <p>Selfies are the only real way to track your body’s progression. Unfortunately, getting in shape takes time 
+                        <p>Selfies make it easy to track your body’s progression. Unfortunately, getting in shape takes time 
                         and the only way you can see the small changes is by documenting your fitness journey. Seeing incremental 
                         changes motivates you to carry on and knowing that you have your next Selfie coming up prevents you from going 
                         off track. </p>
@@ -142,13 +116,9 @@ include('inc/header.php'); ?>
                         <img src="assets/img/selfies/i.png" alt="Healthy Selfie tracking information icon.">
                         <h3>Tracking Info</h3>
                         <p>
-                            Write a caption, hashtag whatever you like, and keep track of your chosen measurements. 
-                            Hash tagging will enter your image into the fit feed to be shared with all other users.
-                             This way, if you're on a diet or training a particular way and seeing great results, 
-                             others can discover how you're doing it. You will have chosen the things you want to 
-                             track with each picture when you first set up your account, whether that may be weight, 
-                             body fat % or number of squats! With each selfie you take, you can capture all of this 
-                             in your tracking info. Fancy trying something new today? Simply add a new measurement.
+                            Your tracking information accompanies every photo you take. Write a caption, hashtag whatever you like, and keep 
+                            track of your chosen measurements. You can track anything you like from your weight and waist, to your deadlift 
+                            personal best.
                         </p>
                     </div>
                     
@@ -166,12 +136,10 @@ include('inc/header.php'); ?>
                     <div class="col-sm-12 single-feature-text selfie-text">
                         <h3><i class="fa fa-lock"></i> Privacy</h3>
                         <p>
-                            We understand not everyone feels comfortable embarking on their body transformation journey by publishing a body shot on a social network. That's why we give you a choice. 
+                            We understand not everyone feels comfortable embarking on their fitness journey by publishing a body shot on a social network. That's why we give you the option to have a private profile.
                         </p>
-                            <p>1. <b>The Private Profile</b>. Follow others but keep all of your photos 100% for your eyes only; or <br></p>
-                            <p>2. <b>The Public Profile</b>. You share as much as you want. Choose whether to make your image public or private on a photo-by-photo basis. <br></p>
-                            <p>Either way, we guarantee after a couple of months of using Healthy Selfie, you'll want to show off your amazing results to the world!
-
+                            <p>Having a private profile allows you to choose who can see your profile.</p>
+                            <p>We guarantee after a couple of months of using Healthy Selfie, you'll want to show off your amazing results to the world!
                         </p>
                     </div>
                     
